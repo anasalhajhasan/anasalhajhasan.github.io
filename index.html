@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: #008DDA;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .photo-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .photo-section img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #008DDA;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .description {
+            background-color: #ACE2E1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .description h2 {
+            color: #008DDA;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .description p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .portfolio-section {
+            margin-bottom: 30px;
+        }
+
+        .portfolio-section h2 {
+            color: #008DDA;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-title {
+            color: #008DDA;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .project-description {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .view-project-link {
+            color: #41C9E2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .view-project-link:hover {
+            color: #008DDA;
+        }
+
+        .contact-section {
+            background-color: #008DDA;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .contact-item {
+            margin-bottom: 10px;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            color: #ACE2E1;
+        }
+
+        footer {
+            background-color: #008DDA;
+            color: #fff;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Flutter Developer Portfolio
+    </header>
+
+    <div class="container">
+        <div class="photo-section">
+            <img src="your_photo.jpg" alt="Your Photo">
+        </div>
+
+        <div class="description">
+            <h2>About Me</h2>
+            <p>I am a passionate Flutter developer with expertise in building cross-platform mobile applications. With several years of experience in mobile app development, I have worked on a diverse range of projects, from simple utility apps to complex enterprise solutions. My goal is to create elegant and user-friendly applications that provide a seamless experience for the end-users.</p>
+        </div>
+
+        <div class="portfolio-section">
+            <h2>Projects</h2>
+            <div class="portfolio-item">
+                <h3 class="project-title">Project 1 <img src="project_icon1.png" alt="Project 1 Icon"></h3>
+                <p class="project-description">Description of Project 1 goes here.</p>
+                <p><a class="view-project-link" href="#">View Project</a></p>
+            </div>
+
+            <div class="portfolio-item">
+                <h3 class="project-title">Project 2 <img src="project_icon2.png" alt="Project 2 Icon"></h3>
+                <p class="project-description">Description of Project 2 goes here.</p>
+                <p><a class="view-project-link" href="#">View Project</a></p>
+            </div>
+
+            <div class="portfolio-item">
+                <h3 class="project-title">Project 3 <img src="project_icon3.png" alt="Project 3 Icon"></h3>
+                <p class="project-description">Description of Project 3 goes here.</p>
+                <p><a class="view-project-link" href="#">View Project</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <div class="contact-item"><i class="fas fa-envelope"></i>example@example.com</div>
+            <div class="contact-item"><i class="fas fa-phone"></i>+1234567890</div>
+            <div class="contact-item"><i class="fab fa-linkedin"></i><a href="#">LinkedIn Profile</a></div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
